@@ -46,35 +46,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume, professionalSite }) 
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
-          {(resume || professionalSite) && (
+          <p className="lead text-center" style={{ whiteSpace: "pre-line" }}>{message}</p>
             <p className="lead text-center">
-              {resume && (
-                <a
-                  className="btn btn-outline-dark btn-lg mx-2"
-                  href={resume}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="Resume/CV"
-                >
-                  Resume
-                </a>
-              )}
-              {professionalSite && (
-                <a
-                  className="btn btn-outline-primary btn-lg mx-2"
-                  href={professionalSite}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="Professional Site"
-                >
-                  Professional Site
-                </a>
-              )}
             </p>
-          )}
         </div>
       </div>
     </Jumbotron>

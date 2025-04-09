@@ -31,6 +31,7 @@ const Home = React.forwardRef((props, ref) => {
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
         icons={mainBody.icons}
+        resume={mainBody.resume}
         ref={ref}
       />
       {about.show && (
@@ -70,7 +71,7 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+
     </>
   );
 });

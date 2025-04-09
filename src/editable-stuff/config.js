@@ -10,6 +10,7 @@ const mainBody = {
   middleName: "",
   lastName: "Anwar",
   message: "PhD Candidate | Machine Learning Researcher",
+  resume: require("../editable-stuff/SaifAnwarCV.pdf"),
   icons: [
     {
       image: "fa-github",
@@ -54,8 +55,8 @@ const about = {
   imageLink: require("../editable-stuff/saifanwar.png"),
   imageSize: 375,
   message:
-    "I am a PhD Candidate in Computer Science at the University of Warwick. My research interests are in Machine Learning and Artificial Intelligence with a current focus in Explainable AI for high risk sectors.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "I am a PhD Candidate in Computer Science at the University of Warwick. My research interests are in Machine Learning and Artificial Intelligence with a current focus in Explainable AI for high risk sectors.\n\n I am looking for a full-time role within Machine Learning, AI and Data Science fields, to commence after completion of my PhD in May 2025",
+  resume: require("../editable-stuff/SaifAnwarCV.pdf"),
   professionalSite: "https://warwick.ac.uk/fac/sci/dcs/people/u2188448/",
 };
 
