@@ -5,31 +5,31 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  gradientColors: "#8500a3, #490d7a, #870850, #9b59b6, #de1b1b, #ad4b7c",
+  firstName: "Saif",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Anwar",
+  message: "PhD Candidate | Machine Learning Researcher",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/saiffanwar",
     },
+//    {
+//      image: "fa-facebook",
+//      url: "https://www.facebook.com/hashirshoaeb",
+//    },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fas fa-user-graduate",
+      url: "https://scholar.google.com/citations?user=6i6gXAMAAAAJ&hl=en",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/saif-anwar-458b14175/",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fa-instagram",
+      url: "https://www.instagram.com/saiffanwar/",
     },
   ],
 };
@@ -51,11 +51,12 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/saifanwar.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am a PhD Candidate in Computer Science at the University of Warwick. My research interests are in Machine Learning and Artificial Intelligence with a current focus in Explainable AI for high risk sectors.",
+  resume: require("../editable-stuff/resume.pdf"),
+  professionalSite: "https://warwick.ac.uk/fac/sci/dcs/people/u2188448/",
 };
 
 // PROJECTS SECTION
@@ -65,10 +66,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Recent Projects and Publications",
+  gitHubUsername: "saiffanwar", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["TGNNExplainer_Ext", "XAI-TGN", "XAIClustering", "CHILLI"],
 };
 
 // Leadership SECTION
@@ -78,15 +79,15 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/saifanwar.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/saifanwar.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
@@ -97,7 +98,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -126,30 +127,45 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for a full-time role within Machine Learning and AI. Please feel free to reach out to me if you know of any opportunities, or just to have a chat!",
+  email: "anwarsaif99@hotmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Education & Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'MEng Computer Science & Electronics (First Class Honours)',// Here Add Company Name
+      companylogo: require('../assets/img/bristol.png'),
+      date: 'September 2017 – June 2025',
+        role2: 'Quantum Communciations Researcher',
+        date2: 'June 2021 – September 2021',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'PhD Computer Science',// Here Add Company Name
+      companylogo: require('../assets/img/warwick.png'),
+      date: 'October 2021 – April 2025 (Expected)',
+    role2: 'Senior Graduate Teaching Assistant',
+    date2: 'October 2021 – March 2025',
+    },
+    {
+      role: 'Machine Learning Researcher',// Here Add Company Name
+      companylogo: require('../assets/img/toshiba.png'),
+      date: 'February 2020 – September 2021',
     },
   ]
 }
+
+const images = {
+  show: true,
+  src: require('../editable-stuff/saifanwar.png'),
+  alt: "saifanwar",
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, images };

@@ -58,6 +58,13 @@ const Project = ({ heading, username, length, specfic }) => {
     <Jumbotron fluid id="projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
+        <ul className="mb-5">
+        <li className="p-3"><b>“MASALA: Model-Agnostic Surrogate Explanations by Locality Adaptation” </b>Anwar, S., Griffiths, N., Bhalerao, A., and Popham, T., <i>Human Interpretable AI Workshop at KDD 2024 Barcelona, Spain.</i>  doi:10.48550/arXiv.2408.10085.</li>
+        <li className="p-3"><b>“CHILLI: A data context-aware perturbation method for XAI” </b> Anwar, S., Griffiths, N., Bhalerao, A., and Popham, T., <i>AI and Human Computer Interaction Workshop at ICML 2023 Honolulu, Hawaii</i> doi:10.48550/arXiv.2407.07521.
+</li>
+        </ul>
+
+
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
