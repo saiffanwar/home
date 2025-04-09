@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.c4db50c3.css",
-    "main.js": "/home/static/js/main.c15dcbc6.js",
-    "static/js/453.19c7e6ca.chunk.js": "/home/static/js/453.19c7e6ca.chunk.js",
-    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "main.js": "/home/static/js/main.e1c205cb.js",
+    "static/js/453.b3f42a8a.chunk.js": "/home/static/js/453.b3f42a8a.chunk.js",
+    "static/media/saifanwar.png": "/home/static/media/saifanwar.fc597492dd8319be50ee.png",
+    "static/media/resume.pdf": "/home/static/media/resume.a0b07028c9aaad7b478b.pdf",
+    "static/media/warwick.png": "/home/static/media/warwick.a1ca0305d4dea900474b.png",
+    "static/media/bristol.png": "/home/static/media/bristol.5638d5a4837dd6401859.png",
     "index.html": "/home/index.html",
     "main.c4db50c3.css.map": "/home/static/css/main.c4db50c3.css.map",
-    "main.c15dcbc6.js.map": "/home/static/js/main.c15dcbc6.js.map",
-    "453.19c7e6ca.chunk.js.map": "/home/static/js/453.19c7e6ca.chunk.js.map"
+    "main.e1c205cb.js.map": "/home/static/js/main.e1c205cb.js.map",
+    "453.b3f42a8a.chunk.js.map": "/home/static/js/453.b3f42a8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4db50c3.css",
-    "static/js/main.c15dcbc6.js"
+    "static/js/main.e1c205cb.js"
   ]
 }
